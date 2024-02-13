@@ -86,7 +86,7 @@ function MovieContent() {
             <p className="my-5">
               <CardTitle className="mb-3">Watch Movie</CardTitle>
               <div className="flex gap-2">
-                <Button variant="secondary" size="sm" onClick={() => window.location.href = "https://watch.streamflix.one/movie/{movie_id}/watch?server=1"}>
+                <Button variant="secondary" size="sm" onClick={() => window.location.href = "https://watch.streamflix.one/movie/${movie.id}/watch?server=1"}>
                   Play Now
                 </Button>
               </div>
