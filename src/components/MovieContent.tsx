@@ -58,7 +58,7 @@ const MovieContent: React.FC = () => {
           <CardDescription>{movie.description_full}</CardDescription>
           <p>Rating: {movie.rating}</p>
           <div className="mt-4">
-            <Button variant="primary" size="lg" onClick={() => window.open(`https://watch-23eqf3-us-east.streamflix.one/player?id=${id}&server=1`, "_blank")}>
+            <Button variant="primary" size="lg" onClick={() => window.open(`https://watch-23eqf3-us-east.streamflix.one/player?id=${id}&server=3`, "_blank")}>
               Play Now
             </Button>
           </div>
